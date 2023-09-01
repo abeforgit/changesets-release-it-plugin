@@ -17,13 +17,13 @@ the remaining steps, using the parsed changelog and version that changesets deci
 
 The changelog parsing is lifted verbatim from the [changesets github action](https://github.com/changesets/action/blob/main/src/utils.ts).
 
-This [release-it plugin](https://github.com/release-it/release-it/blob/master/docs/plugins.md) ...
+## Installation
 
 ```
 npm install --save-dev changesets-release-it-plugin
 ```
 
-In [release-it](https://github.com/release-it/release-it) config:
+## Setup
 At the moment, the extra npm config is required, as changesets sets the version too early in the cycle, and the npm plugin doesn't realise the version has been updated.
 I'm reasonably confident this can be improved with better use of the plugin lifecycles, but for now this will have to do.
 
