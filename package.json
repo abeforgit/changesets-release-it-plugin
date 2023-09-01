@@ -54,6 +54,10 @@
     },
     "plugins": {
       "./index.js": {}
+    },
+    "npm" : {
+      "ignoreVersion": true,
+      "allowSameVersion": true
     }
   }
 }
