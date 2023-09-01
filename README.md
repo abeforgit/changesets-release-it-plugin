@@ -2,6 +2,7 @@
 
 > **Warning**
 > This plugin is highly experimental, use at your own risk
+> 
 > In particular, this plugin does not yet properly support monorepos
 
 This [release-it plugin](https://github.com/release-it/release-it/blob/master/docs/plugins.md) ...
