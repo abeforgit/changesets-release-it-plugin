@@ -1,7 +1,7 @@
 {
-  "name": "my-plugin",
+  "name": "changesets-release-it-plugin",
   "version": "0.0.0",
-  "description": "My plugin for release-it",
+  "description": "Plugin to facilitate integration of changesets with release-it",
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -11,34 +11,44 @@
     "test": "bron test.js",
     "release": "release-it"
   },
-  "keywords": [
-    "release",
-    "release-it",
-    "release-it-plugin"
-  ],
+  "keywords": ["release", "release-it", "release-it-plugin"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/my/awesome-plugin.git"
+    "url": "https://github.com/abeforgit/changesets-release-it-plugin"
   },
-  "homepage": "https://github.com/my/awesome-plugin#readme",
-  "bugs": "https://github.com/my/awesome-plugin/issues",
-  "author": "",
-  "dependencies": {},
+  "homepage": "https://github.com/abeforgit/changesets-release-it-plugin#readme",
+  "bugs": "https://github.com/abeforgit/changesets-release-it-plugin/issues",
+  "author": "abeforgit",
+  "dependencies": {
+    "@manypkg/get-packages": "^2.2.0",
+    "remark-parse": "^10.0.2",
+    "remark-stringify": "^10.0.3",
+    "mdast-util-to-string": "^4.0.0",
+    "unified": "^11.0.2"
+  },
   "devDependencies": {
     "bron": "^2.0.3",
     "release-it": "^15.2.0",
-    "sinon": "^15.0.1"
+    "sinon": "^15.0.1",
+    "@changesets/cli": "^2.26.0"
   },
   "peerDependencies": {
+    "@changesets/cli": "^2.26.0",
     "release-it": "^15.2.0"
   },
   "engines": {
-    "node": ">=14.9"
+    "node": ">=18.0"
   },
   "release-it": {
     "hooks": {
       "before:init": "npm test"
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "./index.js": {}
     }
   }
 }
