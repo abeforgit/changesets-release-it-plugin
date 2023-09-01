@@ -11,7 +11,11 @@
     "test": "bron test.js",
     "release": "release-it"
   },
-  "keywords": ["release", "release-it", "release-it-plugin"],
+  "keywords": [
+    "release",
+    "release-it",
+    "release-it-plugin"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -22,16 +26,17 @@
   "author": "abeforgit",
   "dependencies": {
     "@manypkg/get-packages": "^2.2.0",
+    "mdast-util-to-string": "^4.0.0",
     "remark-parse": "^10.0.2",
     "remark-stringify": "^10.0.3",
-    "mdast-util-to-string": "^4.0.0",
     "unified": "^11.0.2"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.0",
     "bron": "^2.0.3",
     "release-it": "^15.2.0",
-    "sinon": "^15.0.1",
-    "@changesets/cli": "^2.26.0"
+    "sinon": "^15.0.1"
   },
   "peerDependencies": {
     "@changesets/cli": "^2.26.0",
