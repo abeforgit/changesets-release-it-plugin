@@ -1,6 +1,6 @@
 {
   "name": "changesets-release-it-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Plugin to facilitate integration of changesets with release-it",
   "type": "module",
   "exports": {
@@ -55,7 +55,7 @@
     "plugins": {
       "./index.js": {}
     },
-    "npm" : {
+    "npm": {
       "ignoreVersion": true,
       "allowSameVersion": true
     }
