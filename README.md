@@ -26,6 +26,7 @@ npm install --save-dev changesets-release-it-plugin
 ## Setup
 At the moment, the extra npm config is required, as changesets sets the version too early in the cycle, and the npm plugin doesn't realise the version has been updated.
 I'm reasonably confident this can be improved with better use of the plugin lifecycles, but for now this will have to do.
+NOTE: If you don't use the publish feature of the npm plugin, you can simply disable it since this plugin replaces the `npm version` call.
 
 ```
 "plugins": {
