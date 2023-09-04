@@ -1,5 +1,11 @@
 # changesets-release-it-plugin
 
+## 0.1.1
+
+### Patch Changes
+
+- [`deeb0af`](https://github.com/abeforgit/changesets-release-it-plugin/commit/deeb0aff4dc45f8ff331baec2378ee28b4098fee) Thanks [@abeforgit](https://github.com/abeforgit)! - allow newer versions of release-it
+
 ## 0.1.0
 
 ### Minor Changes

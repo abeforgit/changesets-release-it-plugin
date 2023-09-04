@@ -1,6 +1,6 @@
 {
   "name": "changesets-release-it-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin to facilitate integration of changesets with release-it",
   "type": "module",
   "exports": {
