@@ -1,5 +1,11 @@
 # changesets-release-it-plugin
 
+## 0.1.2
+
+### Patch Changes
+
+- [#6](https://github.com/abeforgit/changesets-release-it-plugin/pull/6) [`f524b59`](https://github.com/abeforgit/changesets-release-it-plugin/commit/f524b5983aaab082b5b38d7382381fcc29a46c99) Thanks [@abeforgit](https://github.com/abeforgit)! - make diff invocation posix compliant
+
 ## 0.1.1
 
 ### Patch Changes
