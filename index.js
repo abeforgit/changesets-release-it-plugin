@@ -75,7 +75,7 @@ export default class ChangesetPlugin extends Plugin {
     await this.exec("npx changeset status");
     try {
       this.log.info("Checking difference between head and upstream");
-      await this.exec("[[ ! $(git diff @ @{upstream}) ]]");
+      await this.exec("test -z $(git diff @ @{upstream})");
     } catch (e) {
       this.log.error(
         "HEAD must be up to date with upstream, please push or pull your changes"
