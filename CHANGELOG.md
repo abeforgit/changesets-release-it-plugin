@@ -1,5 +1,11 @@
 # changesets-release-it-plugin
 
+## 0.2.0
+
+### Minor Changes
+
+- [#7](https://github.com/abeforgit/changesets-release-it-plugin/pull/7) [`2723f5a`](https://github.com/abeforgit/changesets-release-it-plugin/commit/2723f5a91eb852bde6850888c79d9c1febdfe896) Thanks [@piemonkey](https://github.com/piemonkey)! - Backwards compatible addition to handle very simple monorepo set-ups
+
 ## 0.1.2
 
 ### Patch Changes
