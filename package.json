@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "@changesets/cli": "^2.26.0",
-    "release-it": "^15.2.0 || ^16.0.0"
+    "release-it": "^15.2.0 || ^16.0.0 || ^17.0.0"
   },
   "engines": {
     "node": ">=18.0"
